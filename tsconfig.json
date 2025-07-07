@@ -8,6 +8,12 @@
     },
     {
       "path": "./apps/back-office"
+    },
+    {
+      "path": "./libs/utils"
+    },
+    {
+      "path": "./libs/introduction"
     }
   ]
 }
