@@ -1,3 +1,3 @@
 export function pageUtils(): string {
-  return 'page-utils v2';
+  return 'page-utils v3';
 }
