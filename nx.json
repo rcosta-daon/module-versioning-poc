@@ -89,7 +89,7 @@
     }
   },
   "release": {
-    "projects": ["apps/*", "libs/introduction"],
+    "projects": ["apps/*", "libs/*"],
     "projectsRelationship": "independent",
     "changelog": {
       "projectChangelogs": true
