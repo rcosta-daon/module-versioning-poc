@@ -1,3 +1,13 @@
+# 5.0.0 (2025-07-07)
+
+### 🚀 Features
+
+- **@module-versioning-poc/introduction:** update introduction component ([20193ea](https://github.com/rcosta-daon/module-versioning-poc/commit/20193ea))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 # 4.0.0 (2025-07-07)
 
 ### 🚀 Features
