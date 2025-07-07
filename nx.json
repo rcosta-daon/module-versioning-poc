@@ -12,7 +12,7 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "686bd0bdbba3df1f3f3fd576",
+  "nxCloudId": "686bda8dec32096653465eb2",
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
@@ -26,7 +26,8 @@
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
-      }
+      },
+      "exclude": ["libs/utils/*"]
     },
     {
       "plugin": "@nx/react/router-plugin",
@@ -60,17 +61,15 @@
       }
     },
     {
-      "plugin": "@nx/playwright/plugin",
+      "plugin": "@nx/js/typescript",
+      "include": ["libs/utils/*"],
       "options": {
-        "targetName": "e2e"
+        "typecheck": {
+          "targetName": "typecheck"
+        }
       }
     }
   ],
-  "targetDefaults": {
-    "test": {
-      "dependsOn": ["^build"]
-    }
-  },
   "generators": {
     "@nx/react": {
       "application": {
@@ -84,8 +83,26 @@
       },
       "library": {
         "style": "css",
-        "linter": "eslint"
+        "linter": "eslint",
+        "unitTestRunner": "none"
       }
+    }
+  },
+  "release": {
+    "projects": ["apps/*", "libs/*"],
+    "projectsRelationship": "independent",
+    "changelog": {
+      "projectChangelogs": true
+    },
+    "version": {
+      "conventionalCommits": true,
+      "preVersionCommand": "npx nx run-many -t build"
+    },
+    "git": {
+      "commit": true,
+      "tag": true,
+      "push": true,
+      "pushTags": true
     }
   }
 }

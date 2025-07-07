@@ -4,10 +4,19 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/client-e2e"
+      "path": "./apps/client"
     },
     {
-      "path": "./apps/client"
+      "path": "./apps/back-office"
+    },
+    {
+      "path": "./libs/utils"
+    },
+    {
+      "path": "./libs/introduction"
+    },
+    {
+      "path": "./libs/page-utils"
     }
   ]
 }
