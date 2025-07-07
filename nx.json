@@ -12,7 +12,7 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "686bd0bdbba3df1f3f3fd576",
+  "nxCloudId": "686bda8dec32096653465eb2",
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
@@ -58,19 +58,8 @@
         "buildDepsTargetName": "build-deps",
         "watchDepsTargetName": "watch-deps"
       }
-    },
-    {
-      "plugin": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
     }
   ],
-  "targetDefaults": {
-    "test": {
-      "dependsOn": ["^build"]
-    }
-  },
   "generators": {
     "@nx/react": {
       "application": {
