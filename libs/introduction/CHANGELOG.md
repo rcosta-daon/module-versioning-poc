@@ -1,3 +1,9 @@
+## 5.1.1 (2025-07-07)
+
+### 🧱 Updated Dependencies
+
+- Updated @module-versioning-poc/page-utils to 0.1.0
+
 ## 5.1.0 (2025-07-07)
 
 ### 🚀 Features
