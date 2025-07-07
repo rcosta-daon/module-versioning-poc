@@ -1,3 +1,13 @@
+## 5.1.0 (2025-07-07)
+
+### 🚀 Features
+
+- **introduction:** add dependency to page-utils ([578dce8](https://github.com/rcosta-daon/module-versioning-poc/commit/578dce8))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 # 5.0.0 (2025-07-07)
 
 ### 🚀 Features
