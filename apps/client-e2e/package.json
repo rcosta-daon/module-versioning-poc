@@ -1,0 +1,10 @@
+{
+  "name": "@module-versioning-poc/client-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@module-versioning-poc/client"
+    ]
+  }
+}
