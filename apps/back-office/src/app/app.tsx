@@ -1,11 +1,12 @@
 // Uncomment this line to use CSS modules
 // import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
+import { utils } from '@module-versioning-poc/utils';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="@module-versioning-poc/back-office" />
+      <h1>Welcome</h1>
+      <p>{utils()}</p>
     </div>
   );
 }

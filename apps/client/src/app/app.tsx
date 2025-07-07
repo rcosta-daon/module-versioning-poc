@@ -3,11 +3,15 @@
 // import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import { Introduction } from '@module-versioning-poc/introduction';
+import { utils } from '@module-versioning-poc/utils';
 
 export function App() {
   return (
     <>
       <h1>Welcome</h1>
+
+      <p>{utils()}</p>
 
       <nav>
         <ul>
@@ -15,14 +19,14 @@ export function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/page-2">Page 2</Link>
+            <Link to="/introduction">Introduction</Link>
           </li>
         </ul>
       </nav>
 
       <Routes>
         <Route path="/" element={<p>Home</p>} />
-        <Route path="/page-2" element={<p>Page 2 </p>} />
+        <Route path="/introduction" element={<Introduction />} />
       </Routes>
     </>
   );
