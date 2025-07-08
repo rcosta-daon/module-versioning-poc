@@ -1,3 +1,13 @@
+## 0.2.0 (2025-07-08)
+
+### 🚀 Features
+
+- update utils function to return version 2 ([e92bdd6](https://github.com/rcosta-daon/module-versioning-poc/commit/e92bdd6))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 0.1.0 (2025-07-08)
 
 ### 🚀 Features

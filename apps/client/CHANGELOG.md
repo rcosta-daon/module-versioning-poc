@@ -1,3 +1,10 @@
+## 1.1.1 (2025-07-08)
+
+### 🧱 Updated Dependencies
+
+- Updated @module-versioning-poc/introduction to 0.1.1
+- Updated @module-versioning-poc/utils to 0.2.0
+
 ## 1.1.0 (2025-07-08)
 
 ### 🚀 Features
