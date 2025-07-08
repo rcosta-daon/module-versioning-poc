@@ -1,3 +1,13 @@
+## 0.2.0 (2025-07-08)
+
+### 🚀 Features
+
+- update introduction module ([cd876b4](https://github.com/rcosta-daon/module-versioning-poc/commit/cd876b4))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 0.1.1 (2025-07-08)
 
 ### 🧱 Updated Dependencies
