@@ -4,6 +4,6 @@
   "private": true,
   "scripts": {
     "predeploy": "nx build client",
-    "deploy": "gh-pages --dist dist"
+    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages --dist dist"
   }
 }
