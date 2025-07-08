@@ -1,3 +1,18 @@
+## 1.5.0 (2025-07-08)
+
+### 🚀 Features
+
+- add about page ([f99175d](https://github.com/rcosta-daon/module-versioning-poc/commit/f99175d))
+
+### 🧱 Updated Dependencies
+
+- Updated @module-versioning-poc/introduction to 0.4.0
+- Updated @module-versioning-poc/about to 0.1.0
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 1.4.1 (2025-07-08)
 
 ### 🧱 Updated Dependencies
