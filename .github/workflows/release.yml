@@ -42,4 +42,4 @@ jobs:
           git push --follow-tags
 
       - name: Deploy
-        run: npx nx --run-many --target=deploy --parallel=1
+        run: npx nx run client:deploy
