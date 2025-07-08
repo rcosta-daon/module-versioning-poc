@@ -42,4 +42,6 @@ jobs:
           git push --follow-tags
 
       - name: Deploy
-        run: npx nx run client:deploy
+        run: |
+          npx nx run client:deploy
+          npx nx run back-office:deploy
