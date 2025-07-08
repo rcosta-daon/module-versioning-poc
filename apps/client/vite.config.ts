@@ -18,11 +18,11 @@ export default defineConfig(() => ({
   // worker: {
   //  plugins: [ nxViteTsPaths() ],
   // },
+  base: '/module-versioning-poc/',
   build: {
     outDir: './dist',
     emptyOutDir: true,
     reportCompressedSize: true,
-    base: '/module-versioning-poc/',
     commonjsOptions: {
       transformMixedEsModules: true,
     },
