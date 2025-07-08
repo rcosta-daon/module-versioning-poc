@@ -92,7 +92,8 @@
     "projects": ["apps/*", "libs/*"],
     "projectsRelationship": "independent",
     "changelog": {
-      "projectChangelogs": true
+      "projectChangelogs": true,
+      "automaticFromRef": true
     },
     "version": {
       "conventionalCommits": true,
