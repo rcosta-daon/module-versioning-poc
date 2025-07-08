@@ -1,3 +1,20 @@
+## 1.3.6 (2025-07-08)
+
+### 🩹 Fixes
+
+- client deploy ([76024eb](https://github.com/rcosta-daon/module-versioning-poc/commit/76024eb))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
+## 1.3.5 (2025-07-08)
+
+### 🧱 Updated Dependencies
+
+- Updated @module-versioning-poc/introduction to 0.2.1
+- Updated @module-versioning-poc/utils to 1.0.0
+
 ## 1.3.4 (2025-07-08)
 
 ### 🩹 Fixes

@@ -1,3 +1,17 @@
+# 1.0.0 (2025-07-08)
+
+### 🚀 Features
+
+- ⚠️  update utils ([1449d29](https://github.com/rcosta-daon/module-versioning-poc/commit/1449d29))
+
+### ⚠️  Breaking Changes
+
+- utils.ts updated
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 0.2.0 (2025-07-08)
 
 ### 🚀 Features
