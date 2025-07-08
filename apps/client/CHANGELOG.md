@@ -1,3 +1,13 @@
+## 1.2.0 (2025-07-08)
+
+### 🚀 Features
+
+- add deploy ([f67195b](https://github.com/rcosta-daon/module-versioning-poc/commit/f67195b))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 1.1.2 (2025-07-08)
 
 ### 🧱 Updated Dependencies
