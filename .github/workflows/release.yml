@@ -45,3 +45,4 @@ jobs:
         run: |
           npx nx run client:deploy
           npx nx run back-office:deploy
+          npx nx run introduction:deploy
