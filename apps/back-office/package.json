@@ -1,5 +1,9 @@
 {
   "name": "@module-versioning-poc/back-office",
   "version": "1.1.2",
-  "private": true
+  "private": true,
+  "scripts": {
+    "predeploy": "nx build back-office",
+    "deploy": "gh-pages --dist dist --add --dest back-office"
+  }
 }

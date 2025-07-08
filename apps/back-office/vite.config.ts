@@ -18,6 +18,7 @@ export default defineConfig(() => ({
   // worker: {
   //  plugins: [ nxViteTsPaths() ],
   // },
+  base: '/module-versioning-poc/back-office/',
   build: {
     outDir: './dist',
     emptyOutDir: true,
