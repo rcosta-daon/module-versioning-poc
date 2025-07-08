@@ -1,3 +1,13 @@
+## 1.3.1 (2025-07-08)
+
+### 🩹 Fixes
+
+- client deploy flag ([63b52cf](https://github.com/rcosta-daon/module-versioning-poc/commit/63b52cf))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 1.3.0 (2025-07-08)
 
 ### 🚀 Features
