@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "private": true,
   "scripts": {
+    "predeploy": "nx build client",
     "deploy": "gh-pages --dist dist"
   }
 }
