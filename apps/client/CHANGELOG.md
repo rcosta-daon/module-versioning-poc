@@ -1,3 +1,13 @@
+## 1.4.0 (2025-07-08)
+
+### 🚀 Features
+
+- deploy back-office ([18fdc9d](https://github.com/rcosta-daon/module-versioning-poc/commit/18fdc9d))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 1.3.6 (2025-07-08)
 
 ### 🩹 Fixes
