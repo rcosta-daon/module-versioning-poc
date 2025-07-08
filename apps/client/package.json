@@ -3,6 +3,6 @@
   "version": "1.2.0",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages ---dist dist --add"
   }
 }
