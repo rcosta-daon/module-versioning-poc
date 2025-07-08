@@ -1,3 +1,9 @@
+## 1.1.2 (2025-07-08)
+
+### 🧱 Updated Dependencies
+
+- Updated @module-versioning-poc/utils to 1.0.0
+
 ## 1.1.1 (2025-07-08)
 
 ### 🧱 Updated Dependencies
