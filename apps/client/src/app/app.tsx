@@ -3,7 +3,12 @@ import { Route, Routes, Link } from 'react-router-dom';
 import { lazy } from 'react';
 
 const About = lazy(() => import('@module-versioning-poc/about'));
-const Introduction = lazy(() => import('@module-versioning-poc/introduction'));
+const IntroductionV040 = lazy(
+  () =>
+    import(
+      'https://rcosta-daon.github.io/module-versioning-poc/introduction/0.4.0/index.js'
+    )
+);
 
 export function App() {
   return (
@@ -21,7 +26,9 @@ export function App() {
             <Link to="/module-versioning-poc/about">About</Link>
           </li>
           <li>
-            <Link to="/module-versioning-poc/introduction">Introduction</Link>
+            <Link to="/module-versioning-poc/introduction">
+              Introduction v0.4.0
+            </Link>
           </li>
         </ul>
       </nav>
@@ -31,7 +38,7 @@ export function App() {
         <Route path="/module-versioning-poc/about" element={<About />} />
         <Route
           path="/module-versioning-poc/introduction"
-          element={<Introduction />}
+          element={<IntroductionV040 />}
         />
       </Routes>
     </>
