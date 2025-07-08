@@ -13,5 +13,9 @@
       "import": "./dist/index.js",
       "default": "./dist/index.js"
     }
+  },
+  "scripts": {
+    "predeploy": "nx build introduction",
+    "deploy": "gh-pages --dist dist --add --dest introduction/$npm_package_version/"
   }
 }
