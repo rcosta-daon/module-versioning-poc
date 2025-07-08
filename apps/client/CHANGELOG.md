@@ -1,3 +1,13 @@
+## 1.3.0 (2025-07-08)
+
+### 🚀 Features
+
+- Update client package.json for deployment ([275ad10](https://github.com/rcosta-daon/module-versioning-poc/commit/275ad10))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 1.2.0 (2025-07-08)
 
 ### 🚀 Features
