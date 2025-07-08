@@ -1,3 +1,9 @@
+## 1.4.1 (2025-07-08)
+
+### 🧱 Updated Dependencies
+
+- Updated @module-versioning-poc/introduction to 0.3.0
+
 ## 1.4.0 (2025-07-08)
 
 ### 🚀 Features

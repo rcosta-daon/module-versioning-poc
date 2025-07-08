@@ -1,3 +1,13 @@
+## 0.3.0 (2025-07-08)
+
+### 🚀 Features
+
+- add introduction deploy workflow ([af1b966](https://github.com/rcosta-daon/module-versioning-poc/commit/af1b966))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 0.2.1 (2025-07-08)
 
 ### 🧱 Updated Dependencies
