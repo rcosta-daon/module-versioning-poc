@@ -1,3 +1,17 @@
+# 1.0.0 (2025-07-08)
+
+### 🚀 Features
+
+- ⚠️  dynamic loading of Introduction module ([b664a99](https://github.com/rcosta-daon/module-versioning-poc/commit/b664a99))
+
+### ⚠️  Breaking Changes
+
+- ⚠️  dynamic loading of Introduction module ([b664a99](https://github.com/rcosta-daon/module-versioning-poc/commit/b664a99))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 ## 0.4.0 (2025-07-08)
 
 ### 🚀 Features
