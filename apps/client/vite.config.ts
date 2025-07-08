@@ -26,5 +26,8 @@ export default defineConfig(() => ({
     commonjsOptions: {
       transformMixedEsModules: true,
     },
+    rollupOptions: {
+      external: ['react', 'react-dom', 'react/jsx-runtime', 'react-dom/client'],
+    },
   },
 }));
