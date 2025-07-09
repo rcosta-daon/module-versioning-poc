@@ -1,6 +1,6 @@
 import { utils } from '@module-versioning-poc/utils';
 import { Route, Routes, Link } from 'react-router-dom';
-import { lazy } from 'react';
+import { lazy, useState } from 'react';
 
 const About = lazy(() => import('@module-versioning-poc/about'));
 const IntroductionV040 = lazy(
@@ -11,11 +11,23 @@ const IntroductionV040 = lazy(
 );
 
 export function App() {
+  const [url, setUrl] = useState('');
+
+  const Dynamic = lazy(() => import(url));
+
   return (
     <>
       <h1>Welcome to Client!</h1>
 
       <p>{utils()}</p>
+
+      <label htmlFor="url">Dynamic URL:</label>
+      <input
+        type="text"
+        id="url"
+        value={url}
+        onChange={(e) => setUrl(e.target.value)}
+      />
 
       <nav role="navigation">
         <ul>
@@ -30,6 +42,9 @@ export function App() {
               Introduction v0.4.0
             </Link>
           </li>
+          <li>
+            <Link to="/module-versioning-poc/dynamic">Dynamic</Link>
+          </li>
         </ul>
       </nav>
 
@@ -40,6 +55,7 @@ export function App() {
           path="/module-versioning-poc/introduction"
           element={<IntroductionV040 />}
         />
+        <Route path="/module-versioning-poc/dynamic" element={<Dynamic />} />
       </Routes>
     </>
   );
