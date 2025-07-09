@@ -5,6 +5,7 @@ export function Introduction() {
     <>
       <p>Introduction</p>
       <p>{utils()}</p>
+      <p>Extra feature</p>
     </>
   );
 }
