@@ -1,3 +1,13 @@
+## 2.1.0 (2025-07-09)
+
+### 🚀 Features
+
+- add dynamic route ([73084c0](https://github.com/rcosta-daon/module-versioning-poc/commit/73084c0))
+
+### ❤️ Thank You
+
+- Rodrigo Fernandes da Costa
+
 # 2.0.0 (2025-07-08)
 
 ### 🚀 Features
